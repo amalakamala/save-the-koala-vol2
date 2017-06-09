@@ -5,6 +5,7 @@
 	<title>SAVE THE KOALA</title>
 	<link rel="shortcut icon" type="image/jpg" href="img/favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">	
 	<link rel="stylesheet" href="css/media.css">
@@ -39,7 +40,7 @@
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<h3>Save The Koala</h3>
 					<p>Koalas are declining in rapid numbers because the trees where they spend a majority of their time are being quickly chopped down. Activists need to take action to try and protect these animals’ habitats so they do not become a thing of the past.</p>
-					<button type="button" class="btn btn-see-more">See More</button>
+					<button type="button" class="btn btn-see-more" data-toggle="tooltip" data-placement="bottom" title="Hola, soy un botón">See More</button>
 				</div>
 			</div>
 		</div>
@@ -79,7 +80,22 @@
 					<h5>EASY HELP</h5>
 					<h4>Save Koalas From Possible Extinction!</h4>
 					<p>Loss of koala habitat is the major threat facing koalas today. Since white settlement of Australia, roughly 80% of the koala’s habitat has been destroyed and of what remains, most occurs on privately owned land and almost none is protected.</p>
-					<button type="button" class="btn btn-see-more">See More</button>
+					<button type="button" class="btn btn-see-more btn-lg" data-toggle="modal" data-target="#myModal">See More</button>
+					<!-- Modal -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title" id="myModalLabel">Error 404</h4>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-see-more" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<img src="img/cosita.jpg" alt="tres" class="img-responsive img-cosita">
@@ -87,6 +103,9 @@
 			</div>
 		</div>
 	</section>
+
+
+
 
 	<!-- SECTION EASY HELP  -->
 	<section class="section-no-tree">
@@ -144,7 +163,22 @@
 					<p>1 T-shirt</p><hr>
 					<p>1 visits per month</p><hr>
 					<p><b>Public</b>API access</p>
-					<button type="button" class="btn btn-donate">DONATE</button>
+					<button type="button" class="btn btn-donate" data-toggle="modal" data-target="#donar-1">DONATE</button>
+					<!-- Modal -->
+					<div class="modal fade" id="donar-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header text-center">
+					        <h4 class="modal-title donation" id="myModalLabel-donar">Tu donación se realizo con exito</h4>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-see-more" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+
 				</div>	
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-donate-save">
 					<h6>GROUPS</h6>
@@ -153,7 +187,20 @@
 					<p>2 T-shirt</p><hr>
 					<p>2 visits per month</p><hr>
 					<p><b>Public</b>API access</p>
-					<button type="button" class="btn btn-donate">DONATE</button>
+					<button type="button" class="btn btn-donate" data-toggle="modal" data-target="#donar-2">DONATE</button>
+					<!-- Modal -->
+					<div class="modal fade" id="donar-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header text-center">
+					        <h4 class="modal-title donation" id="myModalLabel-donar-2">Tu donación se realizo con exito</h4>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-see-more" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
 				</div>	
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-donate-save">
 					<h6>COMPANIES</h6>
@@ -162,7 +209,20 @@
 					<p>3 T-shirt</p><hr>
 					<p>3 visits per month</p><hr>
 					<p><b>Public</b>API access</p>
-					<button type="button" class="btn btn-donate">DONATE</button>
+					<button type="button" class="btn btn-donate" data-toggle="modal" data-target="#donar-3">DONATE</button>
+					<!-- Modal -->
+					<div class="modal fade" id="donar-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header text-center">
+					        <h4 class="modal-title donation" id="myModalLabel-donar-3">Tu donación se realizo con exito</h4>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-see-more" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
 				</div>					
 			</div>
 		</div>
@@ -208,7 +268,10 @@
 	</footer>
 
 	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="https://use.fontawesome.com/4154d90246.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
 

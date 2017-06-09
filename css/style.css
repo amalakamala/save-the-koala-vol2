@@ -184,6 +184,12 @@ sub {
 }
 
 
+/*MODAL DONATE*/
+
+.donation{
+	text-align: center;
+}
+
 /*------------------ FOOTER------------------*/
 
 .section-footer{
