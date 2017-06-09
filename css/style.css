@@ -190,6 +190,17 @@ sub {
 	text-align: center;
 }
 
+.collapse{
+	padding-top: 20px;
+}
+
+.well{
+	padding: 10px;
+	color: white;
+	background-color: #334215;
+	border: none;
+	font-size: 0.9em;
+}
 /*------------------ FOOTER------------------*/
 
 .section-footer{
